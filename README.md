@@ -1,7 +1,16 @@
 # NutriConnect
 This is the project to make a program that helps nutricionists giving their appointment
 
-TODO LIST:
+
+### TODO LIST IMPORTANTE:
+- Fazer planeamento:
+  - Modelo base de dados
+  - Flowchart programa
+  - Pensar na GUI
+  - Formulas necessárias
+  - Implementações necessárias
+
+#### TODO LIST:
 - Classe pacient => tem dados do paciente e faz os cálculos
 
 - Implementar base de dados (class pacient pode ser uma tabela de sql!) Usar sql alchemy
@@ -16,3 +25,7 @@ TODO LIST:
 
 
 - Integrar chatgpt para fazer o plano de dieta consoante os resultados obtidos dos cálculos 
+- GUI:
+  - Fazer interface gráfica desta maneira: https://www.youtube.com/watch?v=Qd-jJjduWeQ
+  - Figma para fazer a interface: https://www.figma.com/
+  - Converter Figma para Tkinter: https://github.com/ParthJadhav/Tkinter-Designer
