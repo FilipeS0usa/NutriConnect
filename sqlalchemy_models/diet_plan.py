@@ -5,8 +5,8 @@ from sqlalchemy import Column, Integer, Text, String, Boolean, DateTime, Foreign
 Base = declarative_base()
 
 # Create model url
-class Client(Base):
-    __tablename__ = "client"
+class Domain(Base):
+    __tablename__ = "domain"
 
     id = Column(Integer, primary_key=True, autoincrement=True)
     domain = Column(Text, nullable=False)
@@ -97,8 +97,8 @@ class File(Base):
     domain = relationship("Domain", back_populates="file")
 
 # Create model hash
-class Hash(Base):
-    __tablename__ = "hash"
+class DietPlan(Base):
+    __tablename__ = "diet_plan"
 
     id = Column(Integer, primary_key=True, autoincrement=True)
     hash = Column(String(100), nullable=False)
@@ -121,4 +121,3 @@ class LinkHash(Base):
     #     self.hash = hash
     #     db.add(new_url_hash)
     #     db.commit()
-

@@ -4,11 +4,12 @@ This is the project to make a program that helps nutricionists giving their appo
 
 ### TODO LIST IMPORTANTE:
 - Fazer planeamento:
-  - Modelo base de dados
-  - Flowchart programa
+  - Modelo base de dados -> done
+  - Flowchart programa -> done
   - Pensar na GUI
   - Formulas necessárias
   - Implementações necessárias
+  - Estudar Excel e Restruturar a BD e o programa
 
 #### TODO LIST:
 - Classe pacient => tem dados do paciente e faz os cálculos
@@ -33,5 +34,8 @@ This is the project to make a program that helps nutricionists giving their appo
 # How to use .env
 https://chat.openai.com/share/83aae303-7b4f-47f8-8f02-0a042be369e0
 
-# How to organize the project
+# How to structure project directories
 https://chat.openai.com/share/6dc1b8e7-95c6-4b10-b31b-6bb0d4219ebd
+
+# Step-by-step Guide Project Planning
+https://chat.openai.com/share/54ae3b74-3efa-4818-94c3-0abe7d3c5571
