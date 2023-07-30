@@ -29,3 +29,9 @@ This is the project to make a program that helps nutricionists giving their appo
   - Fazer interface gráfica desta maneira: https://www.youtube.com/watch?v=Qd-jJjduWeQ
   - Figma para fazer a interface: https://www.figma.com/
   - Converter Figma para Tkinter: https://github.com/ParthJadhav/Tkinter-Designer
+
+# How to use .env
+https://chat.openai.com/share/83aae303-7b4f-47f8-8f02-0a042be369e0
+
+# How to organize the project
+https://chat.openai.com/share/6dc1b8e7-95c6-4b10-b31b-6bb0d4219ebd
