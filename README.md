@@ -1,7 +1,12 @@
 # NutriConnect
-This is the project to make a program that helps nutricionists giving their appointment
+This project is a WebApp writen in Django that helps nutricionists with the tracking of clients, scheduling and more. 
+
+# Requirements
+
+# Is you want to contribute
 
 
+Tenho de passar estes TODOS todos para cartões.
 ### TODO LIST IMPORTANTE:
 - Fazer planeamento:
   - Modelo base de dados -> done
@@ -30,12 +35,6 @@ This is the project to make a program that helps nutricionists giving their appo
   - Fazer interface gráfica desta maneira: https://www.youtube.com/watch?v=Qd-jJjduWeQ
   - Figma para fazer a interface: https://www.figma.com/
   - Converter Figma para Tkinter: https://github.com/ParthJadhav/Tkinter-Designer
-
-# How to use .env
-https://chat.openai.com/share/83aae303-7b4f-47f8-8f02-0a042be369e0
-
-# How to structure project directories
-https://chat.openai.com/share/6dc1b8e7-95c6-4b10-b31b-6bb0d4219ebd
 
 # Step-by-step Guide Project Planning
 https://chat.openai.com/share/54ae3b74-3efa-4818-94c3-0abe7d3c5571
