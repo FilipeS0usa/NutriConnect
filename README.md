@@ -1,40 +1,45 @@
 # NutriConnect
-This project is a WebApp writen in Django that helps nutricionists with the tracking of clients, scheduling and more. 
 
-# Requirements
+This project is a WebApp written in FastAPI (backend) and React (frontend) that helps nutritionists with tracking clients, scheduling, and more.
 
-# Is you want to contribute
+## Requirements
 
+- Python 3.9+
+- Node.js 14+
+- FastAPI
+- React
 
-Tenho de passar estes TODOS todos para cartões.
-### TODO LIST IMPORTANTE:
-- Fazer planeamento:
-  - Modelo base de dados -> done
-  - Flowchart programa -> done
-  - Pensar na GUI
-  - Formulas necessárias
-  - Implementações necessárias
-  - Estudar Excel e Restruturar a BD e o programa
+## Development Setup
 
-#### TODO LIST:
-- Classe pacient => tem dados do paciente e faz os cálculos
+1. Clone the repository
+2. Set up the backend:
+   ```
+   cd backend
+   pip install -r requirements.txt
+   uvicorn app.main:app --reload
+   ```
+3. Set up the frontend:
+   ```
+   cd frontend
+   npm install
+   npm start
+   ```
 
-- Implementar base de dados (class pacient pode ser uma tabela de sql!) Usar sql alchemy
+## Features
 
-- Fazer MVC
-- No model irá haver
-  - def insert_new_client =>método para inserir dados de novo cliente, 
-  - def update_client => um método para fazer update do cliente
+- Client management
+- Appointment scheduling
+- Nutritional calculations
+- AI-assisted diet planning
 
-- Fazer um histórico do cliente, e apresentar gráfico com q evolução ao longo do tempo (diferença de peso, etc...)
-  - A maneira de implementar isto seria com uma BD?
+## TODO
 
+- Implement patient database model
+- Create API endpoints for patient management
+- Develop frontend components for patient data
+- Integrate AI for diet plan generation
+- Implement data visualization for patient progress
 
-- Integrar chatgpt para fazer o plano de dieta consoante os resultados obtidos dos cálculos 
-- GUI:
-  - Fazer interface gráfica desta maneira: https://www.youtube.com/watch?v=Qd-jJjduWeQ
-  - Figma para fazer a interface: https://www.figma.com/
-  - Converter Figma para Tkinter: https://github.com/ParthJadhav/Tkinter-Designer
+## Contributing
 
-# Step-by-step Guide Project Planning
-https://chat.openai.com/share/54ae3b74-3efa-4818-94c3-0abe7d3c5571
+[Add contribution guidelines here]
